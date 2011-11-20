@@ -10,9 +10,15 @@
  * of which is in drupal6-reference.css, line 510.)
  */
 
-
 div.tabs {
-  margin: 0 0 5px 0;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: #000;
+}
+
+.admin-menu div.tabs {
+  top: 20px;
 }
 
 ul.primary {
@@ -22,7 +28,6 @@ ul.primary {
   list-style: none;
   white-space: nowrap;
   line-height: normal;
-  background: url(../images/tab-bar.png) repeat-x left bottom;
 }
 
 ul.primary li {
@@ -32,16 +37,17 @@ ul.primary li {
 }
 
 ul.primary li a {
+  font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
   display: block;
   height: 24px;
-  margin: 0;
-  padding: 0 0 0 5px; /* width of tab-left.png */
+  padding: 5px 5px;
   border-width: 0;
-  font-weight: bold;
+  font-size: .8em;
+  font-weight: 100;
   text-decoration: none;
-  color: #777;
+  text-shadow: 1px 1px 0 rgba(253, 253, 253, 0.5);
+  color: #ddd;
   background-color: transparent;
-  background: url(../images/tab-left.png) no-repeat left -38px;
 }
 
 ul.primary li a .tab {
@@ -51,30 +57,26 @@ ul.primary li a .tab {
   padding: 4px 13px 0 6px;
   border-width: 0;
   line-height: 20px;
-  background: url(../images/tab-right.png) no-repeat right -38px;
 }
 
 ul.primary li a:hover {
   border-width: 0;
   background-color: transparent;
-  background: url(../images/tab-left.png) no-repeat left -76px;
+  color: #fff;
 }
 
 ul.primary li a:hover .tab {
-  background: url(../images/tab-right.png) no-repeat right -76px;
 }
 
 ul.primary li.active a,
 ul.primary li.active a:hover {
   border-width: 0;
-  color: #000;
+  color: #fff;
   background-color: transparent;
-  background: url(../images/tab-left.png) no-repeat left 0;
 }
 
 ul.primary li.active a .tab,
 ul.primary li.active a:hover .tab {
-  background: url(../images/tab-right.png) no-repeat right 0;
 }
 
 ul.secondary {
