@@ -11,3 +11,11 @@
   left: -8px;
 }
 
+/**
+ * Push the right sidebar down, out from behind the rotator
+ */
+
+body.front div.region-sidebar-second {
+ margin-top: 460px;
+}
+
