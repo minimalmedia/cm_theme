@@ -1,0 +1,13 @@
+#block-search-form input.form-text {
+  border: 2px solid #555;
+}
+
+#block-search-form input.form-submit {
+  border: none;
+  background: #555;
+  color: #fff;
+  height: 1.6em;
+  position: relative;
+  left: -8px;
+}
+
