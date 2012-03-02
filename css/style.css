@@ -1,3 +1,15 @@
+/**
+ * Main content
+ */
+
+#main {
+  padding: 0px 0px 20px 0px;
+}
+
+/**
+ * Search Form
+ */
+
 #block-search-form input.form-text {
   border: 2px solid #555;
 }
@@ -37,12 +49,14 @@ body.front div.region-sidebar-second {
 
 #block-system-main-menu {
   position: absolute;
-  top: 12px;
+  top: 20px;
   right: 216px;
 }
 
 #block-system-main-menu li {
+  display: inline;
   list-style: none;
+  margin: 0px 12px;
 }
 
 #block-system-main-menu a,
