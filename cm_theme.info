@@ -115,6 +115,7 @@ features[] = main_menu
 ; Set the default values of settings on the theme-settings.php form.
 
 settings[toggle_name] = 0
+settings[toggle_main_menu] = 0
 settings[zen_breadcrumb]           = yes
 settings[zen_breadcrumb_separator] = ' › '
 settings[zen_breadcrumb_home]      = 1
