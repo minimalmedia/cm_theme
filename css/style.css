@@ -88,3 +88,29 @@ body.front div.region-sidebar-second {
   display: none;
 }
 
+div.footer {
+  display: table-row;
+}
+
+div.footer .cell {
+  display: table-cell;
+  width: 450px;
+  vertical-align: top;
+  padding-right: 30px;
+}
+
+div.footer h3 {
+  color: #ccc;
+  text-shadow: 0 0 1 #000;
+}
+
+.footer a,
+.footer a:hover,
+.footer a:visited,
+.footer address,
+.footer p {
+  color: #eee;
+  font-size: 13px;
+}
+
+
